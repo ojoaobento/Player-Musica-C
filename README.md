@@ -1,3 +1,3 @@
 # Player de Música em C
 
-Este projeto consiste no desenvolvimento de um player de música em linguagem C, com foco na aplicação prática de estruturas de dados e organização de sistemas. A proposta é simular o funcionamento de um player real, permitindo ao usuário navegar entre músicas, manter um histórico de reprodução e gerenciar um catálogo musical de forma eficiente. Com isso, o projeto ainda está em um processo de desenvolvimento.
+Este projeto consiste no desenvolvimento de um player de música em linguagem C, com foco na aplicação prática de estruturas de dados e organização de sistemas. Desse modo, a proposta é simular o funcionamento de um player real, permitindo ao usuário navegar entre músicas, manter um histórico de reprodução e gerenciar um catálogo musical de forma eficiente. Com isso, o projeto ainda está em um processo de desenvolvimento.
