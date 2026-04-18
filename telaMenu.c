@@ -1,7 +1,7 @@
 #include "funcoes.h"
 
 
-void telaMenu(){
+void telaMenu(ListaMusica *listaMusica){
     
     int opcao;
 
@@ -34,7 +34,7 @@ void telaMenu(){
 
         switch(opcao){
             case 1:
-                menuMusicas();
+                menuMusicas(listaMusica);
                 break;
             case 2:
 

@@ -1,7 +1,7 @@
 #include "funcoes.h"
 
 
-void menuMusicas(){
+void menuMusicas(ListaMusica *ListaMusica){
 
     int opcao;
 
