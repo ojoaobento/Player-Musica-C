@@ -4,11 +4,11 @@
 void carregarMusicas(ListaMusica *listaMusica){
     
     ApontadorMusica novo;
-    DIR *dir = opendir("musicas");
+    DIR *dir = opendir("../musicas");
 
     struct dirent *arquivo;
 
-    int id=0;
+    int id=1;
 
     while((arquivo = readdir(dir)) != NULL){
         if(strstr(arquivo->d_name, ".wav") != NULL){
@@ -20,7 +20,7 @@ void carregarMusicas(ListaMusica *listaMusica){
             
             strcpy(novo->conteudo.musica, arquivo->d_name);
 
-            sprintf(novo->conteudo.caminho,"musicas/%s",arquivo->d_name);
+            sprintf(novo->conteudo.caminho,"../musicas/%s",arquivo->d_name);
 
             novo->proximo = NULL;
             novo->anterior = listaMusica->ultimo;

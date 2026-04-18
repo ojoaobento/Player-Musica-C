@@ -1,7 +1,7 @@
 #include "funcoes.h"
 
 
-void menuMusicas(ListaMusica *ListaMusica){
+void menuMusicas(ListaMusica *listaMusica){
 
     int opcao;
 
@@ -27,7 +27,7 @@ void menuMusicas(ListaMusica *ListaMusica){
 
         switch(opcao){
             case 1:
-
+                catalogo(listaMusica);
                 break;
             case 2:
 

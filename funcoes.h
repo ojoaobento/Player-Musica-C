@@ -39,5 +39,9 @@ void telaMenu();
 void limpa_msg();
 void menuMusicas();
 void carregarMusicas();
+void telaCatalogo();
+void ordenarCatalogo();
+void catalogo();
+
 
 #endif
