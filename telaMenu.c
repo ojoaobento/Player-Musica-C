@@ -6,6 +6,10 @@ void telaMenu(){
     int opcao;
 
     do {
+
+        system("cls");
+        tela();
+
         limpa_msg();
 
         gotoxy(34,8);
@@ -15,28 +19,22 @@ void telaMenu(){
         printf("1 - MUSICAS");
 
         gotoxy(32,12);
-        printf("2 - PLAYER");
+        printf("2 - LIXEIRA");
 
         gotoxy(32,13);
-        printf("3 - LIXEIRA");
+        printf("3 - RELATORIOS");
 
         gotoxy(32,14);
-        printf("4 - RELATORIOS");
+        printf("4 - SAIR");
 
-        gotoxy(32,15);
-        printf("5 - SAIR");
-
-        gotoxy(43,17);
-        printf("     ");
-
-        gotoxy(35,17);
+        gotoxy(35,16);
         printf("OPCAO : ");
         scanf("%d", &opcao);
 
 
         switch(opcao){
             case 1:
-
+                menuMusicas();
                 break;
             case 2:
 
@@ -47,8 +45,6 @@ void telaMenu(){
             case 4:
 
                 break;
-            case 5:
-                break;
             default:
                 system("cls");
                 tela();
@@ -56,10 +52,9 @@ void telaMenu(){
                 gotoxy(2,23);
                 printf("OPCAO INVALIDA, VOLTE AO MENU PRINCIPAL......");
                 getch();
-                return;
                 break;
         }
 
-    }while(opcao != 5);
+    }while(opcao != 4);
 
 }

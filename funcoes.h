@@ -14,6 +14,7 @@ void gotoxy(int x, int y);
 void tela();
 void telaMenu();
 void limpa_msg();
+void menuMusicas();
 
 
 #endif
