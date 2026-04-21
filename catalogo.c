@@ -19,7 +19,7 @@ void catalogo(ListaMusica *listaMusica){
         gotoxy(3,i);
         printf("%d", p->conteudo.id);
 
-        gotoxy(20,i);
+        gotoxy(10,i);
         printf("%s", p->conteudo.musica);
 
         i++;
