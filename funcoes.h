@@ -42,6 +42,8 @@ void carregarMusicas();
 void telaCatalogo();
 void ordenarCatalogo();
 void catalogo();
+void telaPlayer();
+void playerMusica();
 
 
 #endif

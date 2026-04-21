@@ -16,10 +16,10 @@ void menuMusicas(ListaMusica *listaMusica){
         printf("1 - CATALOGO");
 
         gotoxy(32,12);
-        printf("2 - TOCAR");
+        printf("2 - EXCLUIR");
 
         gotoxy(32,13);
-        printf("3 - SAIR");
+        printf("0 - SAIR");
 
         gotoxy(32,15);
         printf("OPCAO : ");
@@ -32,7 +32,7 @@ void menuMusicas(ListaMusica *listaMusica){
             case 2:
 
                 break;
-            case 3:
+            case 0:
 
                 break;
             default:
@@ -42,5 +42,5 @@ void menuMusicas(ListaMusica *listaMusica){
 
 
 
-    }while(opcao != 3);
+    }while(opcao != 0);
 }

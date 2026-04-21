@@ -19,15 +19,18 @@ void telaMenu(ListaMusica *listaMusica){
         printf("1 - MUSICAS");
 
         gotoxy(32,12);
-        printf("2 - LIXEIRA");
+        printf("2 - PLAYER");
 
         gotoxy(32,13);
-        printf("3 - RELATORIOS");
+        printf("3 - LIXEIRA");
 
         gotoxy(32,14);
-        printf("4 - SAIR");
+        printf("4 - RELATORIOS");
 
-        gotoxy(35,16);
+        gotoxy(32,15);
+        printf("0 - SAIR");
+
+        gotoxy(35,17);
         printf("OPCAO : ");
         scanf("%d", &opcao);
 
@@ -37,7 +40,7 @@ void telaMenu(ListaMusica *listaMusica){
                 menuMusicas(listaMusica);
                 break;
             case 2:
-
+                playerMusica();
                 break;
             case 3:
 
