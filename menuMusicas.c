@@ -30,7 +30,7 @@ void menuMusicas(ListaMusica *listaMusica){
                 catalogo(listaMusica);
                 break;
             case 2:
-
+                excluirMusica(listaMusica);
                 break;
             case 0:
 

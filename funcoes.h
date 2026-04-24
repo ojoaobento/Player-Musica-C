@@ -44,6 +44,9 @@ void ordenarCatalogo();
 void catalogo();
 void telaPlayer();
 void playerMusica();
+ApontadorMusica pesquisarMusica();
+void telaExclusao();
+void excluirMusica();
 
 
 #endif
