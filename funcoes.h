@@ -47,6 +47,6 @@ void playerMusica();
 ApontadorMusica pesquisarMusica();
 void telaExclusao();
 void excluirMusica();
-
+void insercaoLixeira();
 
 #endif

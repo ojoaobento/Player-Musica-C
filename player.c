@@ -5,9 +5,12 @@ int main(){
     
 
     ListaMusica listaMusica;
+    ListaMusica lixeira;
 
     listaMusica.primeiro = NULL;
     listaMusica.ultimo = NULL;
+    lixeira.primeiro = NULL;
+    lixeira.ultimo = NULL;
 
     int opcao;
 
@@ -15,7 +18,7 @@ int main(){
 
     system("color 02");
     tela();
-    telaMenu(&listaMusica);
+    telaMenu(&listaMusica, &lixeira);
 
 }
 

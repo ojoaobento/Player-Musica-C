@@ -1,7 +1,7 @@
 #include "funcoes.h"
 
 
-void menuMusicas(ListaMusica *listaMusica){
+void menuMusicas(ListaMusica *listaMusica, ListaMusica *lixeira){
 
     int opcao;
 
@@ -30,10 +30,10 @@ void menuMusicas(ListaMusica *listaMusica){
                 catalogo(listaMusica);
                 break;
             case 2:
-                excluirMusica(listaMusica);
+                excluirMusica(listaMusica, lixeira);
                 break;
             case 0:
-
+                return;
                 break;
             default:
 
