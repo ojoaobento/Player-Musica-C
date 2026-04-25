@@ -32,10 +32,10 @@ void excluirMusica(ListaMusica *listaMusica, ListaMusica *lixeira){
             printf("%d", resultado->conteudo.id);
 
             gotoxy(17,12);
-            printf("%s", resultado->conteudo.musica);
+            printf("%.50s", resultado->conteudo.musica);
 
             gotoxy(17,13);
-            printf("%s", resultado->conteudo.caminho);
+            printf("%.61s", resultado->conteudo.caminho);
 
             limpa_msg();
             gotoxy(2,23);

@@ -15,7 +15,7 @@ void carregarMusicas(ListaMusica *listaMusica){
 
             novo->conteudo.id = id++;
 
-            strncpy(novo->conteudo.musica, arquivo->d_name,50);
+            strcpy(novo->conteudo.musica, arquivo->d_name);
             
             sprintf(novo->conteudo.caminho,"../musicas/%s", arquivo->d_name);
 
