@@ -40,7 +40,7 @@ void telaMenu(ListaMusica *listaMusica, ListaMusica *lixeira){
                 menuMusicas(listaMusica, lixeira);
                 break;
             case 2:
-                playerMusica();
+                playerMusica(listaMusica);
                 break;
             case 3:
 

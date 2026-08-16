@@ -32,6 +32,17 @@ typedef struct{
     ApontadorMusica ultimo;
 }ListaMusica;
 
+typedef struct TipoHistorico *ApontadorHistorico;
+
+typedef struct TipoHistorico{
+    Musicas conteudo;
+    ApontadorHistorico proximo;
+}TipoHistorico;
+
+typedef struct{
+    ApontadorHistorico topo;
+}PilhaHistorico;
+
 
 void gotoxy(int x, int y);
 void tela();
