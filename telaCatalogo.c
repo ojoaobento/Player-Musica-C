@@ -23,7 +23,6 @@ void telaCatalogo(){
     gotoxy(30,2);  printf("CATALOGO DE MUSICAS");
     gotoxy(3,4);  printf("ID");
     gotoxy(8,4);  printf("MUSICA");
-    gotoxy(70,4); printf("STATUS");
 
     gotoxy(2, 23);
     printf("MSG:");

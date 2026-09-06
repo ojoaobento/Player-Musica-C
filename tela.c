@@ -22,7 +22,7 @@ void tela(){
 
     gotoxy(3,2);  printf("PLAYER");
 
-    gotoxy(32,6);
+    gotoxy(35,6);
     printf("SOUND MUSIC");
 
 

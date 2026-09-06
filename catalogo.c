@@ -37,7 +37,7 @@ void catalogo(ListaMusica *listaMusica){
         }
 
         limpa_msg();
-        gotoxy(2,23);
+        gotoxy(23,23);
         printf("[<] VOLTAR - AVANCAR [>] - SAIR [0]");
 
         opcao = getch();
@@ -61,11 +61,15 @@ void catalogo(ListaMusica *listaMusica){
                     break;
             }
         }else{
-            if(opcao == 0){
+
+            if(opcao == '0'){
+                break;
                 return;
             }else{
                 system("cls");
+                tela();
                 limpa_msg();
+                gotoxy(2,23);
                 printf("OPCAO INVALIDA......");
                 getch();   
                 return;   

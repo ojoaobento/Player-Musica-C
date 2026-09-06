@@ -24,6 +24,8 @@ void telaExclusao(){
 
     gotoxy(3,2);  printf("MUSICAS");
 
+    gotoxy(30,6);  printf("EXCLUSAO DE MUSICA");
+
     gotoxy(5,11);
     printf("ID........: ");
 

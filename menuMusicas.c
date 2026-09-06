@@ -36,11 +36,12 @@ void menuMusicas(ListaMusica *listaMusica, ListaMusica *lixeira){
                 return;
                 break;
             default:
-
+                system("cls");
+                tela();
+                gotoxy(2,23);
+                printf("OPCAO INVALIDA........");
+                getch();
                 break;
         }
-
-
-
     }while(opcao != 0);
 }

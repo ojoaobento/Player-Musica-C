@@ -12,7 +12,7 @@ void excluirMusica(ListaMusica *listaMusica, ListaMusica *lixeira){
         
         limpa_msg();
         gotoxy(2,23);
-        printf("INSIRA O ID DA MUSICA QUE DESEJA EXCLUIR : ");
+        printf("INSIRA O ID DA MUSICA QUE DESEJA EXCLUIR: ");
         scanf("%d", &id);
 
         resultado = pesquisarMusica(listaMusica, id);
@@ -73,20 +73,19 @@ void excluirMusica(ListaMusica *listaMusica, ListaMusica *lixeira){
 
                     insercaoLixeira(resultado->conteudo,lixeira);
                     free(resultado);
-
                 }
-
+                system("cls");
+                tela();
                 limpa_msg();
                 gotoxy(2,23);
                 printf("A MUSICA FOI MOVIDA PARA A LIXEIRA.....");
                 getch();
-
-
             }else{
                 return;
             }
         }
-
+        system("cls");
+        tela();
         limpa_msg();
         gotoxy(2,23);
         printf("NOVA EXCLUSAO (S/N) ? ");
