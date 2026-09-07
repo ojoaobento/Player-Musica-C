@@ -15,10 +15,13 @@ int main(){
     int opcao;
 
     carregarMusicas(&listaMusica);
+    carregarLixeira(&lixeira);
 
     system("color 02");
     tela();
     telaMenu(&listaMusica, &lixeira);
+
+    salvarLixeira(&lixeira);
 
 }
 

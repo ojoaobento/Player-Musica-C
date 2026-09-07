@@ -59,5 +59,7 @@ ApontadorMusica pesquisarMusica();
 void telaExclusao();
 void excluirMusica();
 void insercaoLixeira();
+void salvarLixeira();
+void carregarLixeira();
 
 #endif
